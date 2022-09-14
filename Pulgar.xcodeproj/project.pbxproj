@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4444022628CF054700ED816E /* PulgarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444022528CF054700ED816E /* PulgarApp.swift */; };
-		4444022828CF054700ED816E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444022728CF054700ED816E /* ContentView.swift */; };
 		4444022A28CF054A00ED816E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4444022928CF054A00ED816E /* Assets.xcassets */; };
 		4444022D28CF054A00ED816E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4444022C28CF054A00ED816E /* Preview Assets.xcassets */; };
 		4444022F28CF054A00ED816E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444022E28CF054A00ED816E /* Persistence.swift */; };
@@ -16,6 +15,35 @@
 		4444023C28CF054B00ED816E /* PulgarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444023B28CF054B00ED816E /* PulgarTests.swift */; };
 		4444024628CF054B00ED816E /* PulgarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444024528CF054B00ED816E /* PulgarUITests.swift */; };
 		4444024828CF054B00ED816E /* PulgarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444024728CF054B00ED816E /* PulgarUITestsLaunchTests.swift */; };
+		4444025728CF067F00ED816E /* CreateDiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444025628CF067F00ED816E /* CreateDiaryView.swift */; };
+		4444025A28CF0C9000ED816E /* CustomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444025928CF0C9000ED816E /* CustomNavBar.swift */; };
+		4444025C28CF114000ED816E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444025B28CF114000ED816E /* CardView.swift */; };
+		4444026028D012BF00ED816E /* SiteDiary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444025F28D012BF00ED816E /* SiteDiary.swift */; };
+		4444026228D013E500ED816E /* SitePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444026128D013E500ED816E /* SitePhoto.swift */; };
+		4444026728D0144200ED816E /* SiteDiaryUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444026628D0144200ED816E /* SiteDiaryUseCase.swift */; };
+		4444026C28D0167E00ED816E /* UseCaseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444026B28D0167E00ED816E /* UseCaseProvider.swift */; };
+		4444027328D0190200ED816E /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444027228D0190200ED816E /* ViewModelType.swift */; };
+		4444027628D01AB100ED816E /* SiteDiaryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444027528D01AB100ED816E /* SiteDiaryService.swift */; };
+		4444027A28D01AEF00ED816E /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444027928D01AEF00ED816E /* Repository.swift */; };
+		4444028D28D05C9D00ED816E /* CommentRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444028C28D05C9D00ED816E /* CommentRowView.swift */; };
+		4444028F28D05CAA00ED816E /* DetailsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444028E28D05CAA00ED816E /* DetailsItemView.swift */; };
+		4444029128D05CBC00ED816E /* EventsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444029028D05CBC00ED816E /* EventsItemView.swift */; };
+		4444029328D0720500ED816E /* PhotosItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444029228D0720500ED816E /* PhotosItemView.swift */; };
+		4444029628D07B6900ED816E /* TextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444029528D07B6900ED816E /* TextFieldModifier.swift */; };
+		44CE7C6528D0836800C2D946 /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CE7C6428D0836800C2D946 /* ButtonModifier.swift */; };
+		44CE7C6828D089CD00C2D946 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CE7C6728D089CD00C2D946 /* ImagePicker.swift */; };
+		44CE7C6A28D090D900C2D946 /* CreateDiaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CE7C6928D090D900C2D946 /* CreateDiaryViewModel.swift */; };
+		44CE7C6D28D0961600C2D946 /* PhotosRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CE7C6C28D0961600C2D946 /* PhotosRowView.swift */; };
+		44CE7C6F28D0966500C2D946 /* PhotosItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CE7C6E28D0966500C2D946 /* PhotosItemViewModel.swift */; };
+		44CE7C7128D124B600C2D946 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CE7C7028D124B600C2D946 /* Constants.swift */; };
+		44CE7C7528D129AD00C2D946 /* CardTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CE7C7428D129AD00C2D946 /* CardTitleView.swift */; };
+		44CE7C7728D1490200C2D946 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CE7C7628D1490200C2D946 /* APIManager.swift */; };
+		44CE7C7928D1492C00C2D946 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CE7C7828D1492C00C2D946 /* APIError.swift */; };
+		44EF429D28D1502C003090CC /* NetworkSiteDiaryUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF429C28D1502C003090CC /* NetworkSiteDiaryUseCase.swift */; };
+		44EF429F28D15397003090CC /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF429E28D15397003090CC /* UIImage+Extension.swift */; };
+		44EF42A128D15619003090CC /* NetworkUseCaseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF42A028D15619003090CC /* NetworkUseCaseProvider.swift */; };
+		44EF42A328D17E03003090CC /* CheckboxToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF42A228D17E03003090CC /* CheckboxToggleStyle.swift */; };
+		44EF42A528D18063003090CC /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF42A428D18063003090CC /* ImageSaver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +66,6 @@
 /* Begin PBXFileReference section */
 		4444022228CF054700ED816E /* Pulgar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pulgar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4444022528CF054700ED816E /* PulgarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulgarApp.swift; sourceTree = "<group>"; };
-		4444022728CF054700ED816E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4444022928CF054A00ED816E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4444022C28CF054A00ED816E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4444022E28CF054A00ED816E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +75,36 @@
 		4444024128CF054B00ED816E /* PulgarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulgarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4444024528CF054B00ED816E /* PulgarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulgarUITests.swift; sourceTree = "<group>"; };
 		4444024728CF054B00ED816E /* PulgarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulgarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4444025628CF067F00ED816E /* CreateDiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDiaryView.swift; sourceTree = "<group>"; };
+		4444025928CF0C9000ED816E /* CustomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBar.swift; sourceTree = "<group>"; };
+		4444025B28CF114000ED816E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		4444025F28D012BF00ED816E /* SiteDiary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteDiary.swift; sourceTree = "<group>"; };
+		4444026128D013E500ED816E /* SitePhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitePhoto.swift; sourceTree = "<group>"; };
+		4444026628D0144200ED816E /* SiteDiaryUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteDiaryUseCase.swift; sourceTree = "<group>"; };
+		4444026B28D0167E00ED816E /* UseCaseProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseProvider.swift; sourceTree = "<group>"; };
+		4444027228D0190200ED816E /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		4444027528D01AB100ED816E /* SiteDiaryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteDiaryService.swift; sourceTree = "<group>"; };
+		4444027928D01AEF00ED816E /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		4444028428D03BA700ED816E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4444028C28D05C9D00ED816E /* CommentRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentRowView.swift; sourceTree = "<group>"; };
+		4444028E28D05CAA00ED816E /* DetailsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsItemView.swift; sourceTree = "<group>"; };
+		4444029028D05CBC00ED816E /* EventsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsItemView.swift; sourceTree = "<group>"; };
+		4444029228D0720500ED816E /* PhotosItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosItemView.swift; sourceTree = "<group>"; };
+		4444029528D07B6900ED816E /* TextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModifier.swift; sourceTree = "<group>"; };
+		44CE7C6428D0836800C2D946 /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
+		44CE7C6728D089CD00C2D946 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		44CE7C6928D090D900C2D946 /* CreateDiaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDiaryViewModel.swift; sourceTree = "<group>"; };
+		44CE7C6C28D0961600C2D946 /* PhotosRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosRowView.swift; sourceTree = "<group>"; };
+		44CE7C6E28D0966500C2D946 /* PhotosItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosItemViewModel.swift; sourceTree = "<group>"; };
+		44CE7C7028D124B600C2D946 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		44CE7C7428D129AD00C2D946 /* CardTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTitleView.swift; sourceTree = "<group>"; };
+		44CE7C7628D1490200C2D946 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		44CE7C7828D1492C00C2D946 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		44EF429C28D1502C003090CC /* NetworkSiteDiaryUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSiteDiaryUseCase.swift; sourceTree = "<group>"; };
+		44EF429E28D15397003090CC /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		44EF42A028D15619003090CC /* NetworkUseCaseProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUseCaseProvider.swift; sourceTree = "<group>"; };
+		44EF42A228D17E03003090CC /* CheckboxToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxToggleStyle.swift; sourceTree = "<group>"; };
+		44EF42A428D18063003090CC /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +135,8 @@
 		4444021928CF054700ED816E = {
 			isa = PBXGroup;
 			children = (
+				4444027428D01A9200ED816E /* NetworkPlatform */,
+				4444025E28D0126200ED816E /* Domain */,
 				4444022428CF054700ED816E /* Pulgar */,
 				4444023A28CF054B00ED816E /* PulgarTests */,
 				4444024428CF054B00ED816E /* PulgarUITests */,
@@ -98,8 +157,10 @@
 		4444022428CF054700ED816E /* Pulgar */ = {
 			isa = PBXGroup;
 			children = (
+				4444028428D03BA700ED816E /* Info.plist */,
+				4444027128D018F700ED816E /* Common */,
+				4444025428CF062D00ED816E /* Scenes */,
 				4444022528CF054700ED816E /* PulgarApp.swift */,
-				4444022728CF054700ED816E /* ContentView.swift */,
 				4444022928CF054A00ED816E /* Assets.xcassets */,
 				4444022E28CF054A00ED816E /* Persistence.swift */,
 				4444023028CF054A00ED816E /* Pulgar.xcdatamodeld */,
@@ -133,6 +194,151 @@
 			path = PulgarUITests;
 			sourceTree = "<group>";
 		};
+		4444025428CF062D00ED816E /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				44CE7C6628D089C100C2D946 /* Utils */,
+				4444029428D07B4800ED816E /* Modifiers */,
+				4444025828CF0C6F00ED816E /* Shared */,
+				4444025528CF063800ED816E /* Create Diary */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		4444025528CF063800ED816E /* Create Diary */ = {
+			isa = PBXGroup;
+			children = (
+				4444028B28D05C7E00ED816E /* Rows */,
+				4444025628CF067F00ED816E /* CreateDiaryView.swift */,
+				44CE7C6928D090D900C2D946 /* CreateDiaryViewModel.swift */,
+			);
+			path = "Create Diary";
+			sourceTree = "<group>";
+		};
+		4444025828CF0C6F00ED816E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4444025928CF0C9000ED816E /* CustomNavBar.swift */,
+				4444025B28CF114000ED816E /* CardView.swift */,
+				44CE7C7428D129AD00C2D946 /* CardTitleView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4444025E28D0126200ED816E /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				4444026528D0142800ED816E /* UseCases */,
+				4444026428D013F700ED816E /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		4444026428D013F700ED816E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4444025F28D012BF00ED816E /* SiteDiary.swift */,
+				4444026128D013E500ED816E /* SitePhoto.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4444026528D0142800ED816E /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				4444026628D0144200ED816E /* SiteDiaryUseCase.swift */,
+				4444026B28D0167E00ED816E /* UseCaseProvider.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		4444027128D018F700ED816E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4444027228D0190200ED816E /* ViewModelType.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4444027428D01A9200ED816E /* NetworkPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				44EF429B28D14FF4003090CC /* UseCase */,
+				4444027828D01AE300ED816E /* Common */,
+				4444027728D01AB700ED816E /* Services */,
+			);
+			path = NetworkPlatform;
+			sourceTree = "<group>";
+		};
+		4444027728D01AB700ED816E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4444027528D01AB100ED816E /* SiteDiaryService.swift */,
+				44CE7C7628D1490200C2D946 /* APIManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4444027828D01AE300ED816E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4444027928D01AEF00ED816E /* Repository.swift */,
+				44CE7C7828D1492C00C2D946 /* APIError.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4444028B28D05C7E00ED816E /* Rows */ = {
+			isa = PBXGroup;
+			children = (
+				44CE7C6B28D095FF00C2D946 /* PhotosItemView */,
+				4444028C28D05C9D00ED816E /* CommentRowView.swift */,
+				4444028E28D05CAA00ED816E /* DetailsItemView.swift */,
+				4444029028D05CBC00ED816E /* EventsItemView.swift */,
+			);
+			path = Rows;
+			sourceTree = "<group>";
+		};
+		4444029428D07B4800ED816E /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				4444029528D07B6900ED816E /* TextFieldModifier.swift */,
+				44CE7C6428D0836800C2D946 /* ButtonModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		44CE7C6628D089C100C2D946 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				44CE7C6728D089CD00C2D946 /* ImagePicker.swift */,
+				44CE7C7028D124B600C2D946 /* Constants.swift */,
+				44EF429E28D15397003090CC /* UIImage+Extension.swift */,
+				44EF42A228D17E03003090CC /* CheckboxToggleStyle.swift */,
+				44EF42A428D18063003090CC /* ImageSaver.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		44CE7C6B28D095FF00C2D946 /* PhotosItemView */ = {
+			isa = PBXGroup;
+			children = (
+				4444029228D0720500ED816E /* PhotosItemView.swift */,
+				44CE7C6C28D0961600C2D946 /* PhotosRowView.swift */,
+				44CE7C6E28D0966500C2D946 /* PhotosItemViewModel.swift */,
+			);
+			path = PhotosItemView;
+			sourceTree = "<group>";
+		};
+		44EF429B28D14FF4003090CC /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				44EF429C28D1502C003090CC /* NetworkSiteDiaryUseCase.swift */,
+				44EF42A028D15619003090CC /* NetworkUseCaseProvider.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,6 +355,8 @@
 			dependencies = (
 			);
 			name = Pulgar;
+			packageProductDependencies = (
+			);
 			productName = Pulgar;
 			productReference = 4444022228CF054700ED816E /* Pulgar.app */;
 			productType = "com.apple.product-type.application";
@@ -167,6 +375,8 @@
 				4444023928CF054B00ED816E /* PBXTargetDependency */,
 			);
 			name = PulgarTests;
+			packageProductDependencies = (
+			);
 			productName = PulgarTests;
 			productReference = 4444023728CF054B00ED816E /* PulgarTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -221,6 +431,8 @@
 				Base,
 			);
 			mainGroup = 4444021928CF054700ED816E;
+			packageReferences = (
+			);
 			productRefGroup = 4444022328CF054700ED816E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -263,9 +475,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44CE7C7128D124B600C2D946 /* Constants.swift in Sources */,
+				4444026028D012BF00ED816E /* SiteDiary.swift in Sources */,
+				4444025C28CF114000ED816E /* CardView.swift in Sources */,
+				44CE7C7728D1490200C2D946 /* APIManager.swift in Sources */,
+				4444025A28CF0C9000ED816E /* CustomNavBar.swift in Sources */,
+				44CE7C6828D089CD00C2D946 /* ImagePicker.swift in Sources */,
+				4444029628D07B6900ED816E /* TextFieldModifier.swift in Sources */,
+				44EF42A528D18063003090CC /* ImageSaver.swift in Sources */,
+				4444026C28D0167E00ED816E /* UseCaseProvider.swift in Sources */,
+				44EF42A328D17E03003090CC /* CheckboxToggleStyle.swift in Sources */,
 				4444022F28CF054A00ED816E /* Persistence.swift in Sources */,
-				4444022828CF054700ED816E /* ContentView.swift in Sources */,
+				44EF429D28D1502C003090CC /* NetworkSiteDiaryUseCase.swift in Sources */,
+				4444027328D0190200ED816E /* ViewModelType.swift in Sources */,
+				4444026728D0144200ED816E /* SiteDiaryUseCase.swift in Sources */,
+				44CE7C6A28D090D900C2D946 /* CreateDiaryViewModel.swift in Sources */,
+				44CE7C7928D1492C00C2D946 /* APIError.swift in Sources */,
+				4444029328D0720500ED816E /* PhotosItemView.swift in Sources */,
+				4444028F28D05CAA00ED816E /* DetailsItemView.swift in Sources */,
+				4444029128D05CBC00ED816E /* EventsItemView.swift in Sources */,
+				4444027628D01AB100ED816E /* SiteDiaryService.swift in Sources */,
+				44CE7C6D28D0961600C2D946 /* PhotosRowView.swift in Sources */,
+				4444028D28D05C9D00ED816E /* CommentRowView.swift in Sources */,
+				4444027A28D01AEF00ED816E /* Repository.swift in Sources */,
+				44CE7C6528D0836800C2D946 /* ButtonModifier.swift in Sources */,
+				4444026228D013E500ED816E /* SitePhoto.swift in Sources */,
+				44CE7C6F28D0966500C2D946 /* PhotosItemViewModel.swift in Sources */,
+				4444025728CF067F00ED816E /* CreateDiaryView.swift in Sources */,
 				4444023228CF054A00ED816E /* Pulgar.xcdatamodeld in Sources */,
+				44EF42A128D15619003090CC /* NetworkUseCaseProvider.swift in Sources */,
+				44CE7C7528D129AD00C2D946 /* CardTitleView.swift in Sources */,
+				44EF429F28D15397003090CC /* UIImage+Extension.swift in Sources */,
 				4444022628CF054700ED816E /* PulgarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +668,7 @@
 				DEVELOPMENT_TEAM = 5U5SX82NR9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pulgar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -457,6 +698,7 @@
 				DEVELOPMENT_TEAM = 5U5SX82NR9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pulgar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
